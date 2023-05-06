@@ -28,4 +28,4 @@ Al acabar de instalar descargamos las siguientes librerias:
 - micropython_ssd1306
 - picozero
 
-Solo faltaria abrir el codigo y guardarlo en la Raspberry como main.py para que se ejecute solo.
+Solo faltaria descargar el codigo, abrirlo y guardarlo en la Raspberry como main.py para que se ejecute solo.
