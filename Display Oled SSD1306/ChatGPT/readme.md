@@ -1,6 +1,6 @@
 ## En esta practica vamos a conectar la Raspberry Pi Pico W con la inteligencia artificial de ChatGPT.
 
-Para eso vamos a necesitar los siguiente componentes:
+### Componentes necesarios:
 
 - Un protoboard
 - Una Raspberry Pi Pico W
@@ -8,7 +8,18 @@ Para eso vamos a necesitar los siguiente componentes:
 - 1 Boton de dos pines
 - Unos cuantos cables dupont machos
 
-Otra cosa que necesitaras conseguir es tu propia API de ChatGPT, para eso ve al siguiente enlace: <A HREF="https://platform.openai.com/account/api-keys"> https://platform.openai.com/account/api-keys </A>
+### Conexion de los componentes:
+
+- Puerto GND de la pantalla a cualquier GND de la Raspberry
+- puerto VCC de la pantalla a 3V3(out) de la Raspberry
+
+Los puertos SCL y SDA ya dependen del codigo al igual que la conexion del boton, pero en este caso se conectan de la siguiente manera:
+
+- Puerto SCL de la pantalla a GP17 de la Raspberry
+- Puerto SDA de la pantalla a GP16 de la Raspberry
+- Unos de los pines del boton debe estar conectado a cualquier GND de la Raspberry y el otro al GP14
+
+### Explicacion:
 
 Antes de hacer cualquier cosa necesitamos tener nuestra Raspberry completamente limpia.
 
@@ -28,25 +39,13 @@ WIFI_SSID="Aqui colocaras el nombre de tu red wifi"
 WIFI_PASSWORD="Aqui colocaras la contrasenia de tu wifi"
 ```
 
+Para completar una parte necesitaras conseguir es tu propia API de ChatGPT, para eso ve al siguiente enlace: <A HREF="https://platform.openai.com/account/api-keys"> https://platform.openai.com/account/api-keys </A>
+
 Una vez que pegaste el codigo y llenaste los datos restantes nos pasamos a Thonny.
 
 Al entrar a Thonny tenemos que conectar la Raspberry, una vez conectada le instalamos las siguientes librerias:
 
 - micropython_ssd1306
 - picozero
-
-En cuanto a la conexion de los componentes hacemos lo siguiente:
-
-- Puerto GND de la pantalla a cualquier GND de la Raspberry
-- puerto VCC de la pantalla a 3V3(out) de la Raspberry
-
-Los puertos SCL y SDA ya dependen del codigo al igual que la conexion del boton, pero en este caso se conectan de la siguiente manera:
-
-- Puerto SCL de la pantalla a GP17 de la Raspberry
-- Puerto SDA de la pantalla a GP16 de la Raspberry
-
-Conexion del boton:
-
-Uno de los pines debe estar conectado a cualquier GND de la Raspberry y el otro al GP14
 
 Al terminar abres el codigo que deje y lo guardas en tu Raspberry como main.py, eso para que no necesites compilarlo cada rato y se ejecute solo
