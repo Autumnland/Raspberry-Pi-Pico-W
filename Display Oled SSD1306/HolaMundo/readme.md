@@ -1,4 +1,4 @@
-## En esta practica vamos a conectar la Raspberry Pi Pico W con un Display Oled SSD1306.
+## En esta practica vamos a conectar la Raspberry Pi Pico W con un Display Oled SSD1306 para imprimir un "Hola mundo".
 
 ### Componentes necesarios:
 
@@ -25,3 +25,7 @@ Entramos a Thonny y instalamos MicroPython(Raspberry Pi pico) a nuestra Raspberr
 
 Al acabar de instalar descargamos las siguientes librerias:
 
+- micropython_ssd1306
+- picozero
+
+Solo faltaria abrir el codigo y guardarlo en la Raspberry como main.py para que se ejecute solo.
