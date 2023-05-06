@@ -1,4 +1,5 @@
 ```
+
 import json
 import os
 import ssl
@@ -239,4 +240,5 @@ except Exception as e: # pylint: disable=broad-except
         if (event1 := keys.events.get()) and event1.pressed:
             break
     supervisor.reload()
+    
     ```
