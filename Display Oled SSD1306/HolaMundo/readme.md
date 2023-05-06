@@ -1,1 +1,27 @@
+## En esta practica vamos a conectar la Raspberry Pi Pico W con un Display Oled SSD1306.
+
+### Componentes necesarios:
+
+- Un protoboard
+- Una Raspberry Pi Pico W
+- Display Oled SSD1306
+- Unos cuantos cables dupont machos
+
+### Conexion de los componentes:
+
+- Puerto GND de la pantalla a cualquier GND de la Raspberry
+- puerto VCC de la pantalla a 3V3(out) de la Raspberry
+
+Los puertos SCL y SDA ya dependen del codigo, pero en este caso se conectan de la siguiente manera:
+
+- Puerto SCL de la pantalla a GP9 de la Raspberry
+- Puerto SDA de la pantalla a GP8 de la Raspberry
+
+### Explicacion:
+
+Necesitamos que la Raspbery este completamente limpia.
+
+Entramos a Thonny y instalamos MicroPython(Raspberry Pi pico) a nuestra Raspberry.
+
+Al acabar de instalar descargamos las siguientes librerias:
 
