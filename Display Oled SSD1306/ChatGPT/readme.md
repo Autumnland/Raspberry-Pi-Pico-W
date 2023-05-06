@@ -8,7 +8,7 @@ Para eso vamos a necesitar los siguiente componentes:
 - 1 Boton de dos pines
 - Unos cuantos cables dupont machos
 
-Otra cosa que necesitaras en conseguir tu propia API de ChatGPT, para eso ve al siguiente enlace:
+Otra cosa que necesitaras conseguir es tu propia API de ChatGPT, para eso ve al siguiente enlace: <A HREF="https://platform.openai.com/account/api-keys"> https://platform.openai.com/account/api-keys </A>
 
 Antes de hacer cualquier cosa necesitamos tener nuestra Raspberry completamente limpia.
 
@@ -18,15 +18,35 @@ Cuando se acabe de instalar notaremos que nuestra Raspberry aparecera como si fu
 
 Hasta aqui ya deberias tener descargado los archivos que deje, asi que vamos a descomprimir el archivo con el siguiente nombre: CircuitPython_GetSuperpower_PicoW_OpenAI.
 
-Al acabar de descomprimirlo entramos a la carpeta que nos da y notaremos que hay otras 2 carpetas, vamos a entrar a la que se llama CircuitPython 8.x, ya adentro copiamos todo y lo pegamos dentro de nuestra Raspberry, al hacer eso empezara a pasar todo lo que copiamos, en algun momento antes de acabar nos mostrara un mensaje de si deseamos remplazar algunos archivos, asi que daremos que si.
+Al acabar de descomprimirlo entramos a la carpeta que nos da y notaremos que hay otras 2 carpetas, vamos a entrar a la que se llama CircuitPython 8.x, ya adentro copiamos todo y lo pegamos dentro de nuestra Raspberry, al hacer eso empezara a pasar todo lo que copiamos, en algun momento antes de acabar nos mostrara un mensaje, el mensaje nos dira si deseamos reemplazar algunos archivos, asi que daremos que si.
 
-Cuando alla terminado entramos a la carpeta de setings y pegamos el siguiente codigo:
+Cuando alla terminado entramos a un archivo que se llama settings y pegamos el siguiente codigo:
 
 ```
-
 OPENAI_API_KEY="Aqui pegaras tu API de ChatGPT"
 WIFI_SSID="Aqui colocaras el nombre de tu red wifi"
 WIFI_PASSWORD="Aqui colocaras la contrasenia de tu wifi"
-
 ```
 
+Una vez que pegaste el codigo y llenaste los datos restantes nos pasamos a Thonny.
+
+Al entrar a Thonny tenemos que conectar la Raspberry, una vez conectada le instalamos las siguientes librerias:
+
+- micropython_ssd1306
+- picozero
+
+En cuanto a la conexion de los componentes hacemos lo siguiente:
+
+- Puerto GND de la pantalla a cualquier GND de la Raspberry
+- puerto VCC de la pantalla a 3V3(out) de la Raspberry
+
+Los puertos SCL y SDA ya dependen del codigo al igual que la conexion del boton, pero en este caso se conectan de la siguiente manera:
+
+- Puerto SCL de la pantalla a GP17 de la Raspberry
+- Puerto SDA de la pantalla a GP16 de la Raspberry
+
+Conexion del boton:
+
+Uno de los pines debe estar conectado a cualquier GND de la Raspberry y el otro al GP14
+
+Al terminar abres el codigo que deje y lo guardas en tu Raspberry como main.py, eso para que no necesites compilarlo cada rato y se ejecute solo
