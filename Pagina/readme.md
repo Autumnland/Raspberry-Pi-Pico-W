@@ -34,4 +34,4 @@ Otra cosa antes de ejecutar, hay una parte del codigo que te indica que datos mo
 
 Esta es la parte que modificaras:
 
-![image](https://user-images.githubusercontent.com/112134604/236651209-97a3cda7-6304-4032-9e73-6e401499b09a.png)
+![image](https://user-images.githubusercontent.com/112134604/236651838-4798ab24-9b4d-415b-b112-34deed37b40d.png)
