@@ -13,8 +13,8 @@ oled_height = 64
 oled = SSD1306_I2C(oled_width, oled_height, i2c)
 
 # Configurar la conexión WiFi
-ssid = 'TecNM_ITT'
-password = ''
+ssid = 'Aqui colocaras tu red wifi'
+password = 'Aqui colocaras la contrasenia'
 wifi = network.WLAN(network.STA_IF)
 wifi.active(True)
 wifi.connect(ssid, password)
