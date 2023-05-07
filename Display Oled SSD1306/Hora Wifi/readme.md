@@ -31,3 +31,7 @@ Al acabar de instalar descargamos las siguientes librerias:
 Solo faltaria descargar el codigo, abrirlo y guardarlo en la Raspberry como main.py para que se ejecute solo.
 
 Otra cosa antes de ejecutar, hay una parte del codigo que te indica que datos modificaras para su elecucion.
+
+Esta es la parte que modificaras:
+
+![image](https://user-images.githubusercontent.com/112134604/236651209-97a3cda7-6304-4032-9e73-6e401499b09a.png)
