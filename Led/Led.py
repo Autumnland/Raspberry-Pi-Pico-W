@@ -1,7 +1,3 @@
-#Programa para encender el led de la pico
-#Hecho por Luis Eduardo
-#02/03/2023
-
 from picozero import pico_led
 from time import sleep
 
