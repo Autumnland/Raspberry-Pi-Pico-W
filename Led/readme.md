@@ -1,4 +1,4 @@
-## En esta practica vamos a hacer una pagina en la Raspberry Pi Pico W en internet.
+## En esta practica vamos a encender el led la Raspberry Pi Pico W.
 
 ### Componentes necesarios:
 
