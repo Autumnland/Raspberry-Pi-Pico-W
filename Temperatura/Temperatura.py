@@ -1,7 +1,3 @@
-#Programa de medicion de temperatura de la pico
-#Hecho por Luis Eduardo
-#02/03/2023
-
 import machine
 import utime
 
