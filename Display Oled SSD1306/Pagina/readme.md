@@ -29,3 +29,5 @@ Al acabar de instalar descargamos las siguientes librerias:
 - picozero
 
 Solo faltaria descargar el codigo, abrirlo y guardarlo en la Raspberry como main.py para que se ejecute solo.
+
+![image](https://user-images.githubusercontent.com/112134604/236651729-2b325141-8345-4873-bc2a-4e45aed59d8d.png)
