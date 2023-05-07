@@ -2,8 +2,8 @@ import network
 import socket
 import time
 
-ssid = 'Redmi Note 8 Pro'
-password = 'juasjuas'
+ssid = 'Aqui colocaras tu red wifi'
+password = 'Aqui colocaras la contrasenia'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
