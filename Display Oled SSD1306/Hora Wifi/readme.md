@@ -1,4 +1,4 @@
-## En esta practica vamos a conectar la Raspberry Pi Pico W con un Display Oled SSD1306 para imprimir las redes wifi que hay disponibles a nuestro alrededor.
+## En esta practica vamos a conectar la Raspberry Pi Pico W con un Display Oled SSD1306 para imprimir la hora exacta, obteniendola de internet.
 
 ### Componentes necesarios:
 
