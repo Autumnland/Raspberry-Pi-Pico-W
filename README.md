@@ -45,3 +45,7 @@ Estas son solo algunas de las características principales de la Raspberry Pi Pi
 Es Thonny.
 
 <p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/b33aaf4e-bbee-4b9d-a95b-b4a3201550de" align="center" width="300" height="300"/></p>
+
+## Donde lo puedo descargar?
+
+Este es el enlace que te envia a su pagina: <A HREF="https://thonny.org/"> https://thonny.org/ </A>
