@@ -17,6 +17,10 @@ Los puertos SCL y SDA ya dependen del codigo, pero en este caso se conectan de l
 - Puerto SCL de la pantalla a GP9 de la Raspberry
 - Puerto SDA de la pantalla a GP8 de la Raspberry
 
+Se veria asi:
+
+![image](https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/ed6588d0-2e65-491b-8694-be1ce74a748c)
+
 ### Explicacion:
 
 Necesitamos que la Raspbery este completamente limpia.
