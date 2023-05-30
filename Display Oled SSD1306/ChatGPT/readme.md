@@ -31,11 +31,21 @@ Para empezar lo que tenemos que hacer es entrar a Thonny y instalar CircuitPytho
 
 Cuando se acabe de instalar notaremos que nuestra Raspberry aparecera como si fuera algun tipo de USB y podremos acceder a los archivos que tenga esta.
 
+![image](https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/592123f1-ea93-47c7-a169-1a20a543914e)
+
 Hasta aqui ya deberias tener descargado los archivos que deje, asi que vamos a descomprimir el archivo con el siguiente nombre: CircuitPython_GetSuperpower_PicoW_OpenAI.
 
-Al acabar de descomprimirlo entramos a la carpeta que nos da y notaremos que hay otras 2 carpetas, vamos a entrar a la que se llama CircuitPython 8.x, ya adentro copiamos todo y lo pegamos dentro de nuestra Raspberry, al hacer eso empezara a pasar todo lo que copiamos, en algun momento antes de acabar nos mostrara un mensaje, el mensaje nos dira si deseamos reemplazar algunos archivos, asi que daremos que si.
+Al acabar de descomprimirlo entramos a la carpeta que nos da y notaremos que hay otras 2 carpetas, vamos a entrar a la que se llama CircuitPython 8.x, entramos a esa ya que es la version que instalamos en la raspberry pi pico.
 
-Cuando alla terminado entramos a un archivo que se llama settings y pegamos el siguiente codigo:
+![image](https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/02abb919-d64b-4fb5-b9b5-e4f009ff1251)
+
+Adentro copiamos todo y lo pegamos dentro de nuestra Raspberry, al hacer eso empezara a pasar todo lo que copiamos, en algun momento antes de acabar nos mostrara un mensaje, el mensaje nos dira si deseamos reemplazar algunos archivos, asi que daremos que si.
+
+Al terminar quedara asi:
+
+![image](https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/f698e7fe-29c5-4daa-8cda-d7d018b1127d)
+
+Ahora entramos a un archivo que se llama settings y pegamos el siguiente codigo:
 
 ```
 OPENAI_API_KEY="Aqui pegaras tu API de ChatGPT"
@@ -43,8 +53,8 @@ WIFI_SSID="Aqui colocaras el nombre de tu red wifi"
 WIFI_PASSWORD="Aqui colocaras la contrasenia de tu wifi"
 ```
 
-Para completar una parte necesitaras conseguir es tu propia API de ChatGPT, para eso ve al siguiente enlace: <A HREF="https://platform.openai.com/account/api-keys"> https://platform.openai.com/account/api-keys </A>
+Solamente llenamos los datos faltantes.
 
-Una vez que pegaste el codigo y llenaste los datos restantes nos pasamos a Thonny.
+Para completar una parte necesitaras conseguir tu propia API de ChatGPT, para eso ve al siguiente enlace: <A HREF="https://platform.openai.com/account/api-keys"> https://platform.openai.com/account/api-keys </A>
 
-Solo abres el codigo que deje y lo guardas en tu Raspberry como main.py, eso para que no necesites compilarlo cada rato y se ejecute solo
+Para terminar solo abres el codigo que deje para empezar hacer uso de el.
