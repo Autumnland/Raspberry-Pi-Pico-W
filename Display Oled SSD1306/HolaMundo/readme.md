@@ -19,7 +19,7 @@ Los puertos SCL y SDA ya dependen del codigo, pero en este caso se conectan de l
 
 Se veria asi:
 
-![image](https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/ed6588d0-2e65-491b-8694-be1ce74a748c)
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/ed6588d0-2e65-491b-8694-be1ce74a748c" align="center" width="361" height="332"/></p>
 
 ### Explicacion:
 
