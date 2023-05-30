@@ -19,6 +19,8 @@ Los puertos SCL y SDA ya dependen del codigo al igual que la conexion del boton,
 - Puerto SDA de la pantalla a GP16 de la Raspberry
 - Unos de los pines del boton debe estar conectado a cualquier GND de la Raspberry y el otro al GP14
 
+![image](https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/598fa940-90f5-4f78-b200-82fefe214ee4)
+
 ### Explicacion:
 
 Antes de hacer cualquier cosa necesitamos tener nuestra Raspberry completamente limpia.
