@@ -26,6 +26,5 @@ Entramos a Thonny y instalamos MicroPython(Raspberry Pi pico) a nuestra Raspberr
 Al acabar de instalar descargamos las siguientes librerias:
 
 - micropython_ssd1306
-- picozero
 
 Solo faltaria descargar el codigo, abrirlo y guardarlo en la Raspberry como main.py para que se ejecute solo.
