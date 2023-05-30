@@ -43,9 +43,4 @@ Para completar una parte necesitaras conseguir es tu propia API de ChatGPT, para
 
 Una vez que pegaste el codigo y llenaste los datos restantes nos pasamos a Thonny.
 
-Al entrar a Thonny tenemos que conectar la Raspberry, una vez conectada le instalamos las siguientes librerias:
-
-- micropython_ssd1306
-- picozero
-
-Al terminar abres el codigo que deje y lo guardas en tu Raspberry como main.py, eso para que no necesites compilarlo cada rato y se ejecute solo
+Solo abres el codigo que deje y lo guardas en tu Raspberry como main.py, eso para que no necesites compilarlo cada rato y se ejecute solo
