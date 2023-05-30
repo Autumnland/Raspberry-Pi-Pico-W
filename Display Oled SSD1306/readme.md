@@ -12,3 +12,17 @@ El SSD1306 OLED display se puede encontrar en diferentes tamaños y resoluciones
 
 En resumen, el SSD1306 OLED display es una pantalla OLED monocromática de bajo consumo y tamaño compacto que puede ser controlada a través del chip controlador SSD1306 utilizando protocolos de comunicación como I2C o SPI.
 <p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/b5339c97-75fa-40f2-ba2c-144fa7511676" align="center"/></p>
+
+## ¿Cuales son las partes que componen al SSD1306 OLED display?
+
+El SSD1306 OLED display es una pantalla OLED monocromática que consta de las siguientes partes principales:
+
+1. Pantalla OLED: Esta es la parte principal de la pantalla, que consta de una matriz de píxeles que se iluminan individualmente para mostrar imágenes.
+
+2. Controlador SSD1306: Es el chip que controla la pantalla OLED. Este chip puede manejar pantallas OLED de diferentes tamaños y resoluciones, y se comunica a través de protocolos de comunicación como I2C o SPI.
+
+3. Conectores de alimentación: La pantalla OLED tiene conectores de alimentación para suministrar la energía necesaria para el funcionamiento de la pantalla.
+
+4. Conectores de datos: La pantalla OLED también tiene conectores de datos que permiten la comunicación con el chip controlador SSD1306.
+
+5. Componentes adicionales: Dependiendo del fabricante, la pantalla OLED puede incluir componentes adicionales, como resistencias y capacitores, para un correcto funcionamiento y protección.
