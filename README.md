@@ -84,7 +84,7 @@ En la parte superior central podemos encontrar el apartado de herramientas, dare
 
 Una vez que dimos clic nos aparecera lo siguiente:
 
-<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/bf91445a-45d6-4403-aa9c-db911050f075" align="center" width="600" height="600"/></p>
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/e84c57c0-a7b2-41d6-a432-c2deaf1831c5" align="center" width="270" height="146"/></p>
 
 Solo damos clic en gestionar paquetes y nos aparecera lo siguiente:
 
