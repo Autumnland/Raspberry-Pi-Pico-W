@@ -49,3 +49,45 @@ Es Thonny.
 ## Donde lo puedo descargar?
 
 Este es el enlace que te envia a su pagina: <A HREF="https://thonny.org/"> https://thonny.org/ </A>
+
+## Como se usa?
+
+Una vez que entramos debemos nos dirigimos a la parte inferior de la derecha y observaremos que dice python 3 local.
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/6f8bae85-e6ef-4741-9e15-583ba4ce547c" align="center" width="600" height="600"/></p>
+
+Damos un clic ahi y nos mostrara si queremos instalar MycroPython o CircuitPython.
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/9a2f32f4-9beb-4564-9e76-905b4f5f4037" align="center" width="245" height="99"/></p>
+
+Daremos clic a la que deseamos y seleccionamos lo siguiente (en mi caso mostrare Micropython pero es el mismo procedimiento para CircuitPython):
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/17ede04b-8f60-48a7-aef4-18dcb5c23af2" align="center" width="600" height="600"/></p>
+
+Ya seleccionado le damos a instalar, cuando acabe el proceso de instalacion nos mostrara lo siguiente:
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/f429d67b-20b9-4556-aebd-58889f1da8b7" align="center" width="600" height="600"/></p>
+
+Una vez que nos aparezca asi ya podemos empezan a hacer uso de la IDE.
+
+## Donde puedo instalar las librerias si es que las necesito?
+
+Nota importante: recuerda haber seleccionado tu raspberry pi pico antes de empezar a hacer esto ya que sino no te aparecera igual a como se muestran en los siguientes pasos, para seleccionarla te diriges a la parte inferior derecha, como si fueras a instalar Micropython pero ahora te mostrara la pico y en que puerto se encuentra.
+
+Te aparecera algo asi:
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/8d2f69e8-7e2d-45dc-a214-8147743f33a2" align="center" width="245" height="99"/></p>
+
+En la parte superior central podemos encontrar el apartado de herramientas, daremos clic ahi.
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/bf91445a-45d6-4403-aa9c-db911050f075" align="center" width="600" height="600"/></p>
+
+Una vez que dimos clic nos aparecera lo siguiente:
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/bf91445a-45d6-4403-aa9c-db911050f075" align="center" width="269" height="146"/></p>
+
+Solo damos clic en gestionar paquetes y nos aparecera lo siguiente:
+
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/093f7d2c-7b12-4af1-bae1-bfbcd8132f48" align="center" width="600" height="600"/></p>
+
+Ahi es donde nosotros podemos empezar a buscar las librerias necesarias paara hacer uso de nuestros programas.
