@@ -76,7 +76,7 @@ Nota importante: recuerda haber seleccionado tu raspberry pi pico antes de empez
 
 Te aparecera algo asi:
 
-<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/8d2f69e8-7e2d-45dc-a214-8147743f33a2" align="center" width="245" height="99"/></p>
+<p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/8d2f69e8-7e2d-45dc-a214-8147743f33a2" align="center" width="250" height="99"/></p>
 
 En la parte superior central podemos encontrar el apartado de herramientas, daremos clic ahi.
 
