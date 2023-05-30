@@ -1,6 +1,6 @@
 # En este apartado encontraras algunas practicas realizadas con la Raspberry Pi Pico W y el Display Oled SSD1306
 
-## ¿Que es la SSD1306 OLED display?
+### ¿Que es la SSD1306 OLED display?
 
 El SSD1306 OLED display es un tipo de pantalla OLED monocromática de bajo consumo y tamaño compacto, que puede ser utilizada en una amplia variedad de proyectos de electrónica y programación.
 
@@ -13,7 +13,7 @@ El SSD1306 OLED display se puede encontrar en diferentes tamaños y resoluciones
 En resumen, el SSD1306 OLED display es una pantalla OLED monocromática de bajo consumo y tamaño compacto que puede ser controlada a través del chip controlador SSD1306 utilizando protocolos de comunicación como I2C o SPI.
 <p align="center"><img src="https://github.com/Autumnland/Raspberry-Pi-Pico-W/assets/112134604/b5339c97-75fa-40f2-ba2c-144fa7511676" align="center"/></p>
 
-## ¿Cuales son las partes que componen al SSD1306 OLED display?
+### ¿Cuales son las partes que componen al SSD1306 OLED display?
 
 El SSD1306 OLED display es una pantalla OLED monocromática que consta de las siguientes partes principales:
 
