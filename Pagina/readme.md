@@ -11,9 +11,6 @@ Necesitamos que la Raspbery este completamente limpia.
 
 Entramos a Thonny y instalamos MicroPython(Raspberry Pi pico) a nuestra Raspberry.
 
-Al acabar de instalar descargamos las siguientes librerias:
-
-- picozero
 
 Solo faltaria descargar el codigo, abrirlo y guardarlo en la Raspberry como main.py para que se ejecute solo.
 
